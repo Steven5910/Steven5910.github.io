@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Ingeniería Informática</title>
+    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><button id="toggle-theme" class="btn btn-sm btn-outline-primary">Tema</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <header id="inicio" class="text-center py-5 bg-primary text-white">
+        <div class="container">
+            <h1>Bienvenido a mi Portafolio</h1>
+            <p>Steven Olivero Almoza| Apasionado por el desarrollo web</p>
+        </div>
+    </header>
+
+    <!-- Sección sobre mí -->
+    <section id="sobre-mi" class="container mt-5">
+        <h2>Sobre Mí</h2>
+        <p>Soy estudiante de Ingeniería Informática en la UIJ Jesús Montané Oropesa. Me especializo en el desarrollo web y domino lenguajes como Python y JavaScript.</p>
+    </section>
+
+    <!-- Sección de habilidades -->
+    <section id="habilidades" class="container mt-5">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desarrollo Web con HTML, CSS y JavaScript</li>
+            <li>Backend con Django </li>
+            <li>Base de Datos con PostgreSQL</li>
+            <li>Git y Control de Versiones</li>
+        </ul>
+    </section>
+
+    <!-- Sección de proyectos -->
+    <section id="proyectos" class="container mt-5">
+        <h2>Proyectos</h2>
+        <p>Actualmente estoy trabajando en el Sistema de Gestión Académica Universitaria (SGAU), un proyecto que facilita la administración académica.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="container mt-5">
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte conmigo a través de:</p>
+        <ul>
+            <li>Email: steven321264@gmail.com</li>
+            <li>GitHub: <a href="https://github.com/Steven5910" target="_blank">github.com/Steven5910</a></li>
+        </ul>
+    </section>
+
+    <script src="portafolio.js"></script>
+</body>
+</html>
